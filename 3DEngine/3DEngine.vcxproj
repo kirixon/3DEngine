@@ -115,9 +115,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Drawer.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Triangle.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Drawer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
